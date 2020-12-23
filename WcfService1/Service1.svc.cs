@@ -18,7 +18,7 @@ namespace WcfService1
         {
             return string.Format("You entered: {0}", value);
         }
-        SqlConnection con = new SqlConnection("Server=DESKTOP-C7VD68Q\\RAFIDFAHAR;Database=WCFtutorial;User Id=sa;Password=rf141200;Trusted_Connection=True;MultipleActiveResultSets=true");
+        SqlConnection con = new SqlConnection("Server=DESKTOP-C7VD68Q\\RAFIDFAHAR;Database=WCFtutorial;User Id=sa;Password=rf141200;");
         public string Insert(InsertUser user)
         {
             string msg;
